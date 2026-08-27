@@ -224,7 +224,7 @@
         <strong>Effective date:</strong> August 25, 2026
       </p>
       <p class="date">
-        <strong>Last updated:</strong> August 25, 2026
+        <strong>Last updated:</strong> August 28, 2026
       </p>
     </header>
 
@@ -342,7 +342,7 @@
           do not provide tokens.
         </p>
 
-        <h3>Rewarded advertising</h3>
+        <h3>Rewarded advertising, consent, and tracking</h3>
 
         <p>
           The game uses Google AdMob to provide optional rewarded
@@ -356,7 +356,7 @@
 
         <ul>
           <li>IP address</li>
-          <li>Approximate location inferred from IP address</li>
+          <li>Approximate or coarse location inferred from IP address</li>
           <li>Device or advertising identifiers, when permitted</li>
           <li>Advertisements shown and interactions with advertisements</li>
           <li>App and product interactions</li>
@@ -366,22 +366,43 @@
         </ul>
 
         <p>
-          Advertising data may be used for delivering ads, measuring
-          advertising performance, preventing fraud, analytics, and improving
-          Google’s advertising services.
+          The game does not request precise GPS location for advertising.
+          Approximate location used by advertising services may instead be
+          inferred from technical information such as an IP address.
         </p>
 
         <p>
-          Where required, the game uses Google’s consent interface before
-          requesting advertisements. The advertisements available to you may
-          depend on your region, privacy choices, device settings, and
-          Google’s policies.
+          Advertising and device information may be used for third-party
+          advertising, advertising measurement, analytics, fraud prevention,
+          and improving advertising services. Depending on the user’s
+          consent choices and Apple platform permissions, certain device,
+          advertising, and product-interaction information may be linked to
+          a device or user and may be used for tracking as defined by Apple.
+        </p>
+
+        <p>
+          Where required, the game uses Google User Messaging Platform
+          (“UMP”) to present privacy and advertising-consent choices.
+          If the game requests permission for tracking that requires Apple’s
+          App Tracking Transparency (“ATT”) framework, iOS presents Apple’s
+          system permission prompt before access to the advertising
+          identifier or other tracking that requires ATT authorization.
+        </p>
+
+        <p>
+          You may decline Apple’s tracking permission. Declining tracking
+          permission does not prevent you from using the core game. When
+          tracking permission is denied or unavailable, advertising requests
+          may be served without the advertising identifier and may be
+          non-personalized, limited, or otherwise affected by your region,
+          consent choices, device settings, ad availability, and Google’s
+          policies.
         </p>
 
         <p>
           The game does not award tokens merely because an advertisement
           screen opens or closes. Tokens are awarded only after the
-          advertising provider sends a successful reward callback.
+          advertising provider sends a successful earned-reward callback.
         </p>
 
         <p>
@@ -560,17 +581,30 @@
           <li>Change Game Center privacy settings through Apple Settings</li>
           <li>Sign out of Game Center</li>
           <li>
-            Change advertising and consent preferences when offered
+            Change advertising and consent preferences when those controls
+            are offered in the game
           </li>
           <li>
-            Limit personalized advertising through Apple device settings
+            Review or change tracking permission in iOS or iPadOS under
+            Settings &gt; Privacy &amp; Security &gt; Tracking
+          </li>
+          <li>
+            Limit personalized advertising through applicable Apple device
+            and account settings
           </li>
           <li>Disable iCloud access for the game</li>
           <li>Delete local game data by removing the app</li>
           <li>
-            Contact us regarding a privacy or deletion request
+            Contact us regarding a privacy, access, correction, or deletion
+            request
           </li>
         </ul>
+
+        <p>
+          Declining or disabling tracking permission does not prevent access
+          to the core game. Advertising availability or personalization may
+          change depending on your privacy choices and applicable rules.
+        </p>
 
         <p>
           Disabling iCloud or Game Center may prevent synchronization,
@@ -612,6 +646,7 @@
           <li>Apple iCloud and CloudKit</li>
           <li>Apple Game Center</li>
           <li>Apple App Store and StoreKit</li>
+          <li>Apple App Tracking Transparency, when applicable</li>
           <li>Google AdMob</li>
           <li>Google User Messaging Platform</li>
         </ul>
@@ -620,6 +655,14 @@
           These providers process information under their own terms and
           privacy policies. Their services may operate in countries other
           than the country where you live.
+        </p>
+
+        <p>
+          The App Store privacy information for Can You Spot It? is intended
+          to reflect the data practices of the app and the third-party SDKs
+          included in the released version. Those practices may change when
+          SDKs, consent settings, or app features change, and this policy may
+          be updated accordingly.
         </p>
       </section>
 
