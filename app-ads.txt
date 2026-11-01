@@ -753,3 +753,6 @@ triplelift.com, 12465, RESELLER, 6c33edb13117fd86
 inmobi.com, 9e311c7a68e94888aac7fbb4272381e2, RESELLER, 83e75a7ae333ca9d
 freewheel.tv, 535664-r-523319, RESELLER
 33across.com, 0010b00002Xbn7QAAR, RESELLER, bbea06d9c4d2853c
+
+# PubMatic authorized seller
+pubmatic.com, 159856, DIRECT, 5d62403b186f2ace
