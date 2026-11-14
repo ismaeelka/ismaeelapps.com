@@ -18,13 +18,13 @@
 <header class="masthead"><div class="wrap">
   <p class="brand">LOAD PARADE</p>
   <h1>Privacy Policy</h1>
-  <p class="date">Last updated: <time datetime="2026-10-14">14 October 2026</time></p>
+  <p class="date">Last updated: <time datetime="2026-11-14">14 November 2026</time></p>
 </div></header>
 <main id="policy" class="wrap">
   <div class="summary">
     <h2>Your game. Your privacy.</h2>
     <p>Load Parade is developed and operated by Ismaeel (“we”, “us”). This policy explains how we handle information when you play Load Parade, use an enabled online feature, or contact us.</p>
-    <p><strong>Local first release:</strong> gameplay and progress use device-local saves. Google ads use child-restricted, non-personalized settings for all players after the required SDK privacy checks; TestFlight uses Google test ads. Apple processes purchases. This release does not use Firebase accounts, cloud-save synchronization, hosted purchase verification, remote configuration, push notifications, or game analytics/crash-upload services.</p>
+    <p><strong>Local gameplay:</strong> progress is saved on your device. Advertising depends on the version you use. Newer builds use Google AdMob and Unity Ads for optional rewarded videos. Apple processes purchases on iOS. These local releases do not use Firebase accounts, cloud-save synchronization, hosted purchase verification, remote configuration, push notifications, or separate game analytics and crash reporting services.</p>
   </div>
   <nav aria-label="Policy contents"><ul>
     <li><a href="#game-data">1. Game and profile information</a></li>
@@ -47,23 +47,22 @@
   </section>
 
   <section id="online"><h2>2. Online services and security</h2>
-<p>Puzzle play and saved progress work locally without a game account or hosted game service. Apple purchase/restore requests and permitted Google advertising/consent requests require a connection. Their providers receive the technical information needed for those requests.</p>
+<p>Puzzle play and saved progress work locally without a game account or hosted game service. Apple purchase/restore requests and permitted advertising and consent requests require a connection. Their providers receive the technical information needed for those requests.</p>
 <p>Firebase Authentication, App Check, Analytics and Crashlytics, CloudKit recovery, public leaderboards, remote configuration and push services are not included in this local release. Owner/developer diagnostic tests in separate builds are not automatic collection from ordinary players.</p>
   </section>
 
   <section id="purchases"><h2>3. In-app purchases</h2>
-<p>Apple processes payment through the App Store. We do not receive your payment-card number. The app verifies purchases using StoreKit on the device and keeps local product/transaction identifiers, purchase status, purchase time and delivery records to prevent duplicate grants.</p>
+<p>On iOS, Apple processes payment through the App Store. We do not receive your payment-card number. The app verifies purchases using StoreKit on the device and keeps local product/transaction identifiers, purchase status, purchase time and delivery records to prevent duplicate grants.</p>
 <p>Eligible permanent products can be restored through Apple. Local progress, consumable balances and used rewards do not have a hosted backup or cross-device recovery in this release. Apple Sandbox/TestFlight purchases are tests, not public charges. Refund/revocation reconciliation uses evidence available from Apple on the device; no game purchase-verification server is used.</p>
-<p>Apple handles its own account and payment information under its <a href="https://www.apple.com/legal/privacy/data/en/appstore/">App Store privacy notice</a>.</p>
+<p>Apple handles its own account and payment information under its <a href="https://www.apple.com/legal/privacy/data/en/appstore/">App Store privacy notice</a>. In-app purchases are unavailable in Android Internal testing build 1200329.</p>
   </section>
 
   <section id="advertising"><h2>4. Advertising and consent</h2>
-<p>Load Parade uses Google AdMob and the User Messaging Platform (UMP). The first App Store release applies child-restricted treatment, non-personalized advertising, and Google’s general-audience (G) ad content rating to every player. Publisher first-party identifiers are disabled. The game does not ask for or collect an age or birth date. Older TestFlight age preferences do not control this release’s ad eligibility.</p>
-<p>Google consent information is refreshed each app launch using its restricted treatment for users under the age of consent. Where the SDK requires a privacy form, it must complete before ad initialization or requests. The Privacy page offers Google ad privacy options where required. The SDK determines whether an ad request is permitted; local gameplay remains available if advertising cannot run.</p>
-<p>When consent/ad services are used, Google may process IP addresses and approximate location derived from them, app/device identifiers, ad views and interactions, and diagnostic/performance information. Test ads also involve provider processing; a test label does not mean that no data leaves the device.</p>
-<p>The app disables publisher personalization and publisher first-party identifiers, does not request precise GPS location, and does not show an Apple tracking-permission prompt in this release. These settings do not eliminate Google's necessary service processing. See Google's disclosures below.</p>
-<p>Video rewards are optional. The game stores a local reward receipt to deliver an earned benefit once; skipped or unearned videos grant nothing. Limited interstitial ads may appear between gameplay sessions, and a banner may appear on Home. Remove Ads suppresses interstitials and the Home banner, while optional rewarded videos remain a player choice. Ad availability is not guaranteed. TestFlight uses Google's sample ads; App Store builds use the publisher's units.</p>
-<p>Further information: <a href="https://policies.google.com/privacy">Google Privacy Policy</a>, <a href="https://policies.google.com/technologies/ads">Google advertising information</a>, and <a href="https://developers.google.com/admob/ios/privacy/data-disclosure">Google's iOS advertising SDK data disclosure</a>.</p>
+<p>Load Parade uses Google AdMob and Google’s User Messaging Platform (UMP). Android Internal testing build 1200329 and the iOS App Store distribution build 1200328 use Unity Ads through AdMob to provide optional rewarded videos. These builds use contextual Unity Ads settings, disable publisher ad personalization and publisher first-party identifiers, and set Google’s maximum ad content rating to G. Earlier iOS releases apply child-restricted, non-personalized Google ad settings and may show Home banners or limited interstitials. On those releases, Remove Ads suppresses banners and interstitials. TestFlight and the first Android internal build use Google sample ads.</p>
+<p>These mediated builds refresh Google’s consent information at launch. When Google requires a privacy form, the form must complete and UMP must permit ad requests before the app initializes the ad SDK or requests an ad. The game’s privacy settings provide Google’s privacy options where required. Local gameplay remains available when ads cannot run.</p>
+<p>Google and Unity may receive technical information to deliver and measure ads, prevent fraud, and operate their SDKs. This may include IP addresses, approximate location derived from them, app and device identifiers such as Android advertising identifiers where available, interactions with ads, and diagnostic and performance data. Test ads also involve provider processing. Load Parade does not request precise GPS location or ask for Apple tracking permission in these builds.</p>
+<p>Video rewards are optional. The game records an earned reward on the device and delivers it once. Skipped or unearned videos grant no reward.</p>
+<p>For provider practices, see the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>, <a href="https://policies.google.com/technologies/ads">Google advertising information</a>, Google’s ad SDK disclosures for <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Android</a> and <a href="https://developers.google.com/admob/ios/privacy/data-disclosure">iOS</a>, and the <a href="https://unity.com/legal/privacy-policy">Unity Privacy Policy</a>.</p>
   </section>
 
   <section id="support"><h2>5. Support information</h2>
@@ -72,15 +71,15 @@
   </section>
 
   <section id="sharing"><h2>6. Sharing and international processing</h2>
-    <p>Information may be processed by Apple, Google/AdMob, and providers needed to deliver an enabled service or respond to support. We may disclose information where required by law or reasonably necessary to protect users, prevent fraud, or secure the service.</p>
+    <p>Information may be processed by Apple, Google/AdMob, Unity Ads, and providers needed to deliver an enabled service or respond to support. We may disclose information where required by law or reasonably necessary to protect users, prevent fraud, or secure the service.</p>
     <p>We do not sell your local game profile for money. Advertising-provider processing can fall within broader legal definitions of data sharing, depending on the feature, configuration, and jurisdiction; we do not treat this statement as an exemption from applicable privacy choices.</p>
-    <p>Service providers may process information in countries other than your own. Their applicable agreements and privacy notices describe their international-transfer safeguards. See <a href="https://www.apple.com/legal/privacy/">Apple’s privacy information</a> and <a href="https://policies.google.com/privacy">Google’s privacy information</a>.</p>
+    <p>Service providers may process information in countries other than your own. Their applicable agreements and privacy notices describe their international-transfer safeguards. See the privacy notices from <a href="https://www.apple.com/legal/privacy/">Apple</a>, <a href="https://policies.google.com/privacy">Google</a>, and <a href="https://unity.com/legal/privacy-policy">Unity</a>.</p>
   </section>
 
   <section id="retention"><h2>7. Retention and deletion</h2>
     <p>Local gameplay records normally remain while you retain the profile on your device. Removing the app may remove local saves, but it does not automatically erase provider records, Apple purchase history, protected credentials, or any separately held support information.</p>
     <p>We retain support and enabled online-service records only as needed for their stated purposes and applicable legal, security, or transaction obligations. A minimum transaction or abuse-prevention record may need to remain after other profile information is deleted, for example to prevent duplicate purchase delivery or process a refund. Providers may have separate retention periods.</p>
-    <p>You can request information or deletion using the contact below. We may ask for proportionate information to verify that the request relates to your profile, but will not ask you to email your password or recovery secret. A request is not a confirmation that deletion has completed. There is no hosted game account in this release. Local profile deletion is available in the game; it does not delete Apple purchase history, Google provider records or separately held support messages.</p>
+    <p>You can request information or deletion using the contact below. We may ask for proportionate information to verify that the request relates to your profile, but will not ask you to email your password or recovery secret. A request is not a confirmation that deletion has completed. There is no hosted game account in this release. Local profile deletion is available in the game; it does not delete Apple purchase history, Google or Unity provider records, or separately held support messages.</p>
   </section>
 
   <section id="choices"><h2>8. Your choices and rights</h2>
@@ -90,7 +89,7 @@
   </section>
 
   <section id="children"><h2>9. Children and younger players</h2>
-<p>Load Parade is a colorful puzzle game. All players receive the same child-restricted, non-personalized advertising treatment; the game does not infer that a player is an adult. This treatment is not an App Store age-rating declaration. No birth date, real name or email is required for local gameplay. Ad providers may still process the technical data described above to deliver permitted contextual ads.</p>
+<p>Load Parade is a colorful puzzle game. The game does not ask for a birth date or infer that a player is an adult. Local gameplay does not require a real name or email. The advertising settings for each release are described above. Ad providers may process the technical data described there to deliver permitted ads.</p>
 <p>Younger players should not send personal information through support without a parent or guardian's involvement. A parent or guardian who believes a child supplied personal information can contact us to request review and deletion where applicable.</p>
   </section>
 
@@ -108,6 +107,6 @@
     <p class="small">Include “Load Parade Privacy” in your subject and your public player identifier if relevant. Do not include passwords or private recovery credentials.</p>
   </section>
 </main>
-<footer><div class="wrap">Load Parade · Privacy Policy · Updated 13 October 2026</div></footer>
+<footer><div class="wrap">Load Parade · Privacy Policy · Updated 14 November 2026</div></footer>
 </body>
 </html>
