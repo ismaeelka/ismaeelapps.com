@@ -43,3 +43,4 @@ button{font:inherit;cursor:pointer}button:focus-visible,.screenshots:focus-visib
 @media(max-width:600px){.gallery .screenshot img{height:350px}#viewer{padding-inline:12px}.viewer-controls{gap:10px}.viewer-controls p{font-size:12px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media(max-width:600px){.masthead,main,footer{width:calc(100% - 40px)}.masthead{min-height:80px}.domain{display:none}.intro{padding:64px 0 48px}h1{font-size:48px}.intro-copy{font-size:18px}#app-list{grid-template-columns:1fr}footer{flex-wrap:wrap}}
+.load-parade-screens{background:#fff1db}
